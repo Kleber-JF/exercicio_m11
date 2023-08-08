@@ -115,19 +115,20 @@ h2 {
 
 @media screen and (max-width: 640px) {
     .sobre-loja {
-        width: 500px; 
+        width: 90%; 
         display: block;
         padding: 32px 0;
     }
 
     .sobre-loja img {
+        height: 200px;
         display: flex;
         margin: auto;
         padding-bottom: 16px;
     }
 
     .produtos {
-        width: 500px;
+        width: 90%;
         padding: 16px 0;
         margin: auto;
     }
@@ -145,14 +146,15 @@ h2 {
     }
 
     .lista-produtos img {
-        height: 320px;
+        max-height: 200px;
         padding: 8px 0;        
     }
 }
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
+    
     .sobre-loja {
-        width: 900px; 
+        width: 90%; 
         display: block;
         padding: 32px 0;
         
@@ -166,7 +168,7 @@ h2 {
     }
 
     .produtos {
-        width: 900px;
+        width: 90%;
         padding: 16px 0;
         margin: auto;
     }
